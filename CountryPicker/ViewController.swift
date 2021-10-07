@@ -14,18 +14,23 @@ class ViewController: UIViewController {
     @IBOutlet weak var countryImage: UIImageView!
     @IBOutlet weak var countryPhoneLbl: UILabel!
     private var selectedIndex:Int = 1
+    @IBOutlet weak var languageBtn: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let tapGes = UITapGestureRecognizer(target: self, action: #selector(self.pickedCountryAction(_:)))
+        let tapGes = UITapGestureRecognizer(target: self, action: #selector(self.pickerCountry))
         self.CountryView.addGestureRecognizer(tapGes)
     }
-    @IBAction func pickedCountryAction(_ sender: Any) {
+    @objc fileprivate func pickerCountry(){
         let screen = self.storyboard?.instantiateViewController(withIdentifier: "SelectCountryViewController") as! SelectCountryViewController
         screen.delegate = self
         screen.selectedId = self.selectedIndex
         self.navigationController?.pushViewController(screen, animated: true)
+
+    }
+    @IBAction func changeLanguage(_ sender: Any) {
+
     }
 
 }

@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pFh-k7-TPo">
-                                <rect key="frame" x="20" y="445" width="374" height="60"/>
+                                <rect key="frame" x="20" y="425" width="374" height="100"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99C-Ui-B3k" userLabel="MobileNumber">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
@@ -128,6 +128,16 @@
                                             <constraint firstAttribute="height" constant="60" id="gWG-nH-kej"/>
                                         </constraints>
                                     </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRF-dz-kNX">
+                                        <rect key="frame" x="0.0" y="60" width="374" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="YNg-Vv-Vfz"/>
+                                        </constraints>
+                                        <state key="normal" title="language"/>
+                                        <connections>
+                                            <action selector="changeLanguage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Anp-Ro-D5v"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="VRD-N9-ctX" firstAttribute="width" secondItem="pFh-k7-TPo" secondAttribute="width" multiplier="0.7" id="T6S-nQ-LHc"/>
@@ -149,6 +159,7 @@
                         <outlet property="countryCodeLbl" destination="NPM-PE-viJ" id="w5E-AC-WAx"/>
                         <outlet property="countryImage" destination="C8v-q5-Z5l" id="lbn-LZ-WDX"/>
                         <outlet property="countryPhoneLbl" destination="HhB-x6-ma6" id="JDW-KO-q8v"/>
+                        <outlet property="languageBtn" destination="CRF-dz-kNX" id="TzG-KI-cc3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

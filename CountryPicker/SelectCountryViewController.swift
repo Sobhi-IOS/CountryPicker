@@ -56,7 +56,7 @@ class SelectCountryViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        self.navigationItem.title = "select_country".localized
+        self.navigationItem.title = "select a country".localized
     }
     fileprivate func getCountries()
     {
