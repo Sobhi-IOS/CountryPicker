@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Mobile Number* "; ObjectID = "Bw5-yr-CeF"; */
+"Bw5-yr-CeF.text" = "رقم الهاتف *";
+
+/* Class = "UIButton"; normalTitle = "language"; ObjectID = "CRF-dz-kNX"; */
+"CRF-dz-kNX.normalTitle" = "";
+
+/* Class = "UILabel"; text = "+966"; ObjectID = "HhB-x6-ma6"; */
+"HhB-x6-ma6.text" = "+966";
+
+/* Class = "UILabel"; text = "SA"; ObjectID = "NPM-PE-viJ"; */
+"NPM-PE-viJ.text" = "SA";
+
+/* Class = "UITextField"; placeholder = "search"; ObjectID = "Qkm-wp-GiQ"; */
+"Qkm-wp-GiQ.placeholder" = "بحث";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "jpY-gc-mGZ"; */
+"jpY-gc-mGZ.placeholder" = "رقم الهاتف";

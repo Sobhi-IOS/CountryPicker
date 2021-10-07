@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fuB-Fn-IdR">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -71,7 +72,7 @@
                                                                     <constraint firstItem="wTe-em-1wH" firstAttribute="leading" secondItem="sp9-pj-jrD" secondAttribute="leading" id="lb5-nx-rOx"/>
                                                                 </constraints>
                                                             </view>
-                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VRD-N9-ctX" customClass="TextFieldView" customModule="Avon_Sales" customModuleProvider="target">
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VRD-N9-ctX" customClass="TextFieldView" customModule="CountryPicker" customModuleProvider="target">
                                                                 <rect key="frame" x="112" y="0.0" width="262" height="40"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWo-jX-uEQ">
@@ -218,7 +219,7 @@
         <!--Navigation Controller-->
         <scene sceneID="hrf-0p-98P">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fuB-Fn-IdR" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="nav" automaticallyAdjustsScrollViewInsets="NO" id="fuB-Fn-IdR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ebT-wi-RKM">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

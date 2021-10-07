@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  CountryPicker
+
+  Created by Sobhi Imad on 07/10/2021.
+  
+*/
+"search" = "Search";
+"select_country" = "Select a Country";

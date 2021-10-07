@@ -56,7 +56,7 @@ class SelectCountryViewController: UIViewController {
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        self.navigationItem.title = "select a country".localized
+        self.navigationItem.title = "select_country".localized
     }
     fileprivate func getCountries()
     {
@@ -100,8 +100,7 @@ extension SelectCountryViewController:UITableViewDataSource, UITableViewDelegate
             let capitalImage = image.uppercased()
             cell.countryImage.image = UIImage(named: capitalImage)
         }
-//        let  name = isRTL() ? object["name_ar"] : object["name"]
-        let name =  object["name"]
+        let  name = isRTL() ? object["name_ar"] : object["name"]
         if let name = name as? String{
             cell.countryName.text = name
         }

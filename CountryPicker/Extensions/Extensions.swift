@@ -41,4 +41,28 @@ extension UITextField {
     func clearText(){
         self.text = ""
     }
+    func setLabelTextAlignment(Alignment:NSTextAlignment){
+        if(textAlignment == .left || textAlignment == .right)
+        {
+            textAlignment = Alignment
+        }
+    }
 }
+extension UITextView{
+    func setLabelTextAlignment(Alignment:NSTextAlignment){
+
+        if(textAlignment == .left || textAlignment == .right)
+        {
+            textAlignment = Alignment
+        }
+    }
+}
+func isRTL() -> Bool
+{
+    if LanguageManager.currentLanguageCode() == "ar"
+    {
+        return true
+    }
+    return false
+}
+

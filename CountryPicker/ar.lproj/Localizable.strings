@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  CountryPicker
+
+  Created by Sobhi Imad on 07/10/2021.
+  
+*/
+"search" = "بحث";
+"arabic" =  "عربي";
+"select_country" = "اختر دولة";

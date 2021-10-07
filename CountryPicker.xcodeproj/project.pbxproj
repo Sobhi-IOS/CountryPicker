@@ -13,6 +13,9 @@
 		C42DCEAB270ED150000EC919 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42DCEAA270ED150000EC919 /* Extensions.swift */; };
 		C42DCEAD270ED2F5000EC919 /* CountryCodes.json in Resources */ = {isa = PBXBuildFile; fileRef = C42DCEAC270ED2F5000EC919 /* CountryCodes.json */; };
 		C42DCEAF270ED31C000EC919 /* Flags.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42DCEAE270ED31C000EC919 /* Flags.xcassets */; };
+		C42DCEBA270F1BC4000EC919 /* LanguageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C42DCEB3270F1BC4000EC919 /* LanguageManager.m */; };
+		C42DCEBB270F1BC4000EC919 /* NSBundle+Language.m in Sources */ = {isa = PBXBuildFile; fileRef = C42DCEB4270F1BC4000EC919 /* NSBundle+Language.m */; };
+		C42DCEC3270F1D55000EC919 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C42DCEC5270F1D55000EC919 /* Localizable.strings */; };
 		C43B0FC1270ECE4500D790FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B0FC0270ECE4500D790FD /* AppDelegate.swift */; };
 		C43B0FC3270ECE4500D790FD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B0FC2270ECE4500D790FD /* SceneDelegate.swift */; };
 		C43B0FC5270ECE4500D790FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43B0FC4270ECE4500D790FD /* ViewController.swift */; };
@@ -28,6 +31,17 @@
 		C42DCEAA270ED150000EC919 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C42DCEAC270ED2F5000EC919 /* CountryCodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CountryCodes.json; sourceTree = "<group>"; };
 		C42DCEAE270ED31C000EC919 /* Flags.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Flags.xcassets; sourceTree = "<group>"; };
+		C42DCEB3270F1BC4000EC919 /* LanguageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageManager.m; sourceTree = "<group>"; };
+		C42DCEB4270F1BC4000EC919 /* NSBundle+Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Language.m"; sourceTree = "<group>"; };
+		C42DCEB5270F1BC4000EC919 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		C42DCEB7270F1BC4000EC919 /* LanguageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageManager.h; sourceTree = "<group>"; };
+		C42DCEB8270F1BC4000EC919 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C42DCEB9270F1BC4000EC919 /* NSBundle+Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Language.h"; sourceTree = "<group>"; };
+		C42DCEBC270F1BEA000EC919 /* CountryPicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CountryPicker-Bridging-Header.h"; sourceTree = "<group>"; };
+		C42DCEBF270F1D36000EC919 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		C42DCEC0270F1D36000EC919 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		C42DCEC4270F1D55000EC919 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		C42DCEC6270F1D57000EC919 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C43B0FBD270ECE4500D790FD /* CountryPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CountryPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43B0FC0270ECE4500D790FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43B0FC2270ECE4500D790FD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +89,20 @@
 			path = Countries;
 			sourceTree = "<group>";
 		};
+		C42DCEB2270F1BC4000EC919 /* LanguageManager */ = {
+			isa = PBXGroup;
+			children = (
+				C42DCEB3270F1BC4000EC919 /* LanguageManager.m */,
+				C42DCEB4270F1BC4000EC919 /* NSBundle+Language.m */,
+				C42DCEB5270F1BC4000EC919 /* Defines.h */,
+				C42DCEB7270F1BC4000EC919 /* LanguageManager.h */,
+				C42DCEB8270F1BC4000EC919 /* PrefixHeader.pch */,
+				C42DCEB9270F1BC4000EC919 /* NSBundle+Language.h */,
+				C42DCEBC270F1BEA000EC919 /* CountryPicker-Bridging-Header.h */,
+			);
+			path = LanguageManager;
+			sourceTree = "<group>";
+		};
 		C43B0FB4270ECE4500D790FD = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +122,7 @@
 		C43B0FBF270ECE4500D790FD /* CountryPicker */ = {
 			isa = PBXGroup;
 			children = (
+				C42DCEB2270F1BC4000EC919 /* LanguageManager */,
 				C42DCEA9270ED103000EC919 /* Countries */,
 				C42DCEA8270ED0DB000EC919 /* Extensions */,
 				C42DCEA3270ED063000EC919 /* cellCountry */,
@@ -105,6 +134,7 @@
 				C43B0FCB270ECE4600D790FD /* LaunchScreen.storyboard */,
 				C43B0FCE270ECE4600D790FD /* Info.plist */,
 				C42DCEA1270ECF7E000EC919 /* SelectCountryViewController.swift */,
+				C42DCEC5270F1D55000EC919 /* Localizable.strings */,
 			);
 			path = CountryPicker;
 			sourceTree = "<group>";
@@ -150,6 +180,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = C43B0FB4270ECE4500D790FD;
 			productRefGroup = C43B0FBE270ECE4500D790FD /* Products */;
@@ -169,6 +200,7 @@
 				C42DCEAD270ED2F5000EC919 /* CountryCodes.json in Resources */,
 				C42DCEAF270ED31C000EC919 /* Flags.xcassets in Resources */,
 				C42DCEA7270ED07A000EC919 /* CountryTableViewCell.xib in Resources */,
+				C42DCEC3270F1D55000EC919 /* Localizable.strings in Resources */,
 				C43B0FCD270ECE4600D790FD /* LaunchScreen.storyboard in Resources */,
 				C43B0FCA270ECE4600D790FD /* Assets.xcassets in Resources */,
 				C43B0FC8270ECE4500D790FD /* Main.storyboard in Resources */,
@@ -182,11 +214,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42DCEBB270F1BC4000EC919 /* NSBundle+Language.m in Sources */,
 				C43B0FC5270ECE4500D790FD /* ViewController.swift in Sources */,
 				C42DCEAB270ED150000EC919 /* Extensions.swift in Sources */,
 				C42DCEA2270ECF7E000EC919 /* SelectCountryViewController.swift in Sources */,
 				C43B0FC1270ECE4500D790FD /* AppDelegate.swift in Sources */,
 				C43B0FC3270ECE4500D790FD /* SceneDelegate.swift in Sources */,
+				C42DCEBA270F1BC4000EC919 /* LanguageManager.m in Sources */,
 				C42DCEA6270ED07A000EC919 /* CountryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -194,10 +228,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		C42DCEC5270F1D55000EC919 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42DCEC4270F1D55000EC919 /* en */,
+				C42DCEC6270F1D57000EC919 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		C43B0FC6270ECE4500D790FD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C43B0FC7270ECE4500D790FD /* Base */,
+				C42DCEBF270F1D36000EC919 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -206,6 +250,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				C43B0FCC270ECE4600D790FD /* Base */,
+				C42DCEC0270F1D36000EC919 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -217,6 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -278,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -336,6 +383,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KDX5972VM;
+				GCC_PREFIX_HEADER = CountryPicker/LanguageManager/PrefixHeader.pch;
 				INFOPLIST_FILE = CountryPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,6 +392,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.unitone.CountryPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CountryPicker/LanguageManager/CountryPicker-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -356,6 +405,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KDX5972VM;
+				GCC_PREFIX_HEADER = CountryPicker/LanguageManager/PrefixHeader.pch;
 				INFOPLIST_FILE = CountryPicker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -364,6 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.unitone.CountryPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CountryPicker/LanguageManager/CountryPicker-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
