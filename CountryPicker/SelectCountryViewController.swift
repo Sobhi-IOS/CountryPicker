@@ -124,17 +124,6 @@ extension SelectCountryViewController:UITableViewDataSource, UITableViewDelegate
     }
 }
 
-extension SelectCountryViewController: UISearchResultsUpdating {
-    func updateSearchResults(for searchController: UISearchController) {
-        // TODO
-        //    filteredDataSource = candies.filter { (candy: Candy) -> Bool in
-        //       return candy.name.lowercased().contains(searchText.lowercased())
-        //     }
-
-
-    }
-}
-
 //MARK:- UITextFieldDelegate
 extension SelectCountryViewController: UITextFieldDelegate{
     func textFieldShouldClear(_ textField: UITextField) -> Bool {
