@@ -22,8 +22,3 @@ this file written by Mahdy Khader --> Android Developer Github profile
 ## headings
 # Auther
 Sobhi Imad,sobhiimad97@gmail.com
-
-
-# Copyright 
-© Unit One Group http://unitone.co/
-
