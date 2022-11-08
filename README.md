@@ -1,14 +1,14 @@
 # Description 
-- select country code and image and countryPhone
+- select country code and image and country Phone
 - support arabic & english language
 - support search by country code & country phone
 
 
 ## how to use
-- To run the example project, download the repo, and take resource folder Countries (Flags images and json file) 
+- To run the example project, download the repo, and take resource folder countries (flags images and json file) 
 - open select SelectCountryViewController to view code get list countries and select one country 
 ## Resouce JSON File 
-this file written by Mahdy Khader --> android developer github profile
+this file written by Mahdy Khader --> Android Developer Github profile
 - https://github.com/MahdyKh/CountryCodes
 
 ## Dont forgotten that  
@@ -21,9 +21,9 @@ this file written by Mahdy Khader --> android developer github profile
 
 ## headings
 # Auther
-sobhi imad,sobhiimad97@gmail.com
+Sobhi Imad,sobhiimad97@gmail.com
 
 
-# copyright 
+# Copyright 
 © Unit One Group http://unitone.co/
 
